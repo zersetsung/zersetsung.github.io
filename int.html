@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Методы и регулирующие акты</title>
+    <!-- Подключение стилей и иконок (аналогично исходному файлу) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cryptq.github.io/css/restyle.css">
+    <style>
+        /* Дополнительные стили для улучшения читаемости */
+        .controls {
+            margin: 20px 0;
+            text-align: center;
+        }
+        #methodSearch {
+            width: 80%;
+            padding: 12px 20px;
+            background: rgba(10, 25, 40, 0.7);
+            border: 1px solid var(--accent-dim);
+            color: var(--text);
+            font-size: 1em;
+            border-radius: 5px;
+            outline: none;
+            transition: all 0.3s;
+        }
+        .table-wrapper {
+            overflow-x: auto;
+        }
+        .methods-table th, .methods-table td {
+            vertical-align: top;
+        }
+        .tech-badge {
+            display: inline-block;
+            background: rgba(0, 150, 255, 0.2);
+            border: 1px solid var(--accent);
+            color: var(--accent);
+            padding: 2px 8px;
+            margin: 2px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <section class="section">
+        <h1 style="text-align: center; border-bottom: none; padding-top: 35px;font-size:1.4em;">
+            <i class="fas fa-balance-scale" style="font-size: 5em;"></i> <br> <br>
+            «НОРМАТИВНО-ПРАВОВАЯ МАТРИЦА МЕТОДОВ ПСИХОФИЗИЧЕСКОГО И РАЗВЕДЫВАТЕЛЬНОГО ВОЗДЕЙСТВИЯ»
+        </h1>
+        <!--<p style="text-align: center; color: var(--highlight);">
+            Полный перечень методов разведки и воздействия с указанием нормативной базы РФ
+        </p>-->
+
+        <!-- Поле поиска -->
+        <div class="controls">
+            <input type="text" id="methodSearch" placeholder="ПОИСК ПО МЕТОДАМ, ОПИСАНИЯМ И АКТАМ...">
+        </div>
+
+        <!-- Таблица методов -->
+        <div class="table-wrapper">
+            <table class="methods-table" id="methodsTable">
+                <thead>
+                    <tr>
+                        <th width="120">МЕТОД</th>
+                        <th>ОПИСАНИЕ</th>
+                        <th width="500">РЕГУЛИРУЮЩИЕ АКТЫ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- MASINT -->
+                    <tr>
+                        <td><span class="tech-badge">MASINT</span></td>
+                        <td>
+                            Интеллектуальные измерения и <b>Радиотехническая экспертиза</b>, 
+                            <br>
+                             Химико-Биологические измерения/экспертизы, 
+                            <br> 
+                             Измерение физических сигналов <b>(Эффект Фрея, акустика, инфразвук, ЭМИ, микроволны)</b>. <br> Выявление <b>«сигнатур» и «подписей»</b> объектов или технологий.</td>
+                        <td>
+                            <div style="font-size: 0.85em; line-height: 1.4;">
+                                <strong>ФСБ РФ:</strong> Приказ №160, Инструкция по проведению оперативного радиоконтроля<br>
+                                <strong>ГРУ МО РФ:</strong> Регламенты радиотехнической разведки<br>
+                                <strong>РОСГВАРДИЯ:</strong> Регламенты применения акустического оружия<br>
+                                <strong>ФЗ:</strong> №61, №102, №126, №3, №15, №4, №52, №114, №144<br>
+                                <strong>ГОСТ:</strong> 8.417-2024, РВ 0015-002-2012, 30319.1-96, Р 8.736-2011<br>
+                                <strong>СанПиН:</strong> 2.6.1.2523-09, 2.2.4.1191-03, 2.2.4/2.1.8.582-96
+                            </div>
+                        </td>
+                    </tr>
+                                        <!-- НОВАЯ СТРОКА: СТС НПИ (специальные технические средства для негласного получения информации) -->
+                    <tr>
+                        <td>
+                            <span class="tech-badge">TECHINT</span>  
+                            <span class="tech-badge">PSYINT</span>
+                            <span class="tech-badge">B-INT</span>
+                            <span class="tech-badge">NEURO-INT</span>
+                            <span class="tech-badge">СТС-НПИ</span>
+                        </td>
+                        <td>
+                            <b>Техническая, Нейробиологическая, Психотехнологическая и Биофизическая разведка.</b> 
+                            <br> <br>
+                            <b>Специальные Технические Средства для Негласного Получения Информации.</b> 
+                            <br> <br>
+                            Дистанционный или контактный съем когнитивной и нейрофизиологической информации, Нейромониторинг 
+                            (декодирование мыслеобразов, психосемантическое зондирование) с использованием <b>СТС НПИ</b>, 
+                            нейроинтерфейсов и ПО скрытого мониторинга психоэмоционального состояния.
+                            <br> <br>
+                            Приборы, системы, комплексы, устройства, специальный инструмент и ПО, 
+                            которым намеренно приданы качества для скрытного получения информации (включая микро-БС, 
+                            нейроинтерфейсы, декодеры мыслеобразов, шпионское ПО и технические средства съема биометрических данных).
+                            <br> <br>
+                            <b>Приборы, системы, комплексы, устройства, специальный инструмент и ПО</b>, которым намеренно приданы качества для <b>скрытного получения информации</b> (включая, БС сотовой связи, нейроинтерфейсы, декодеры мыслеобразов, шпионское ПО и т.д.).</td>
+                        <td>
+                            <b>ГОСТ Р</b> 50922-2026; <br>
+                            <b>Ф.З</b> от 14.07.2024 № 187-ФЗ;<br>
+                            <b>ПП РФ</b> № 2158;<br> 
+                            <b>СТ. 138.1 УК РФ</b>; <br>
+                            <b>СТ. 137 УК РФ</b>; <br>   
+                            <b>Приказ ФСБ России</b> № 500;<br>
+                            <b>Инструкции ФСБ/СВР</b> по технической защите биоинформации.
+                        </td>
+                    </tr>
+                    <!-- ENROL -->
+                    <tr>
+                        <td><span class="tech-badge">ENROL</span></td>
+                        <td><b>«ENROL» это «Electronic Node Registration of Outbound Life-signals» или «Электронная узловая регистрация исходящих сигналов жизнедеятельности»</b> <br> Профилирование, набор и ведение «человеческого материала», «биосигнатур» <br> Вербовка, агентурная работа, учёт лиц.</td>
+                        <td>ФЗ 2124-1; Инстр. СВР; Указ 492; гостайна (5485-1, 813-УКП); Инстр. Генпр.</td>
+                    </tr>
+                    <!-- HUMINT -->
+                    <tr>
+                        <td><span class="tech-badge">HUMINT</span></td>
+                        <td>Агентурная работа с «человеческим материалом».</td>
+                        <td>ФЗ 2124-1 (ст.8-10); ФЗ 5485-1; Указ 492.</td>
+                    </tr>
+                    <!-- SIGINT -->
+                    <tr>
+                        <td><span class="tech-badge">SIGINT</span></td>
+                        <td>Перехват/обработка сигналов — прослушка, радио- и электро-разведка.</td>
+                        <td>144-ФЗ; 150-ФЗ, 187-ПП, 99-ФЗ; 149-ФЗ, 152-ФЗ; 5485-1, 813-УКП.</td>
+                    </tr>
+                    <!-- IMINT -->
+                    <tr>
+                        <td><span class="tech-badge">IMINT</span></td>
+                        <td>Сбор и анализ оптических, радиометрических и ИК изображений с авиации, БПЛА, КА.</td>
+                        <td>35-ФЗ; 8-ФЗ; 99-ФЗ; 5485-1, 813-УКП; акты Минобороны/ФСБ.</td>
+                    </tr>
+                    <!-- OSINT -->
+                    <tr>
+                        <td><span class="tech-badge">OSINT</span></td>
+                        <td>Разведка по открытым источникам — СМИ, интернет, соцсети, реестры.</td>
+                        <td>149-ФЗ; 139-ФЗ; 152-ФЗ; 230-ФЗ; метод. СВР/ФСБ.</td>
+                    </tr>
+                    <!-- COMINT -->
+                    <tr>
+                        <td><span class="tech-badge">COMINT</span></td>
+                        <td>Радиоразведка — перехват и анализ радиообменов.</td>
+                        <td>144-ФЗ; 150-ФЗ; 187-ПП; 99-ФЗ; 5485-1, 813-УКП.</td>
+                    </tr>
+                    <!-- ELINT -->
+                    <tr>
+                        <td><span class="tech-badge">ELINT</span></td>
+                        <td>Радиотехническая разведка — обнаружение и анализ радиочастотных излучений технических средств.</td>
+                        <td>144-ФЗ; 150-ФЗ; 187-ПП; 99-ФЗ; 5485-1, 813-УКП.</td>
+                    </tr>
+                    <!-- RADINT -->
+                    <tr>
+                        <td><span class="tech-badge">RADINT</span></td>
+                        <td>Радиолокационная разведка — сбор и анализ радиолокационных отражений от объектов.</td>
+                        <td>144-ФЗ; 150-ФЗ; 187-ПП; 99-ФЗ; 5485-1, 813-УКП.</td>
+                    </tr>
+                    <!-- TELINT -->
+                    <tr>
+                        <td><span class="tech-badge">TELINT</span></td>
+                        <td>Телевизионная разведка — сбор и анализ телевизионных образов с дистанционных станций.</td>
+                        <td>144-ФЗ; 150-ФЗ; 187-ПП; 99-ФЗ; 5485-1, 813-УКП.</td>
+                    </tr>
+                    <!-- IRINT -->
+                    <tr>
+                        <td><span class="tech-badge">IRINT</span></td>
+                        <td>Разведка с помощью устройств инфракрасной техники — сбор и анализ ИК-излучения.</td>
+                        <td>35-ФЗ; 8-ФЗ; 99-ФЗ; 5485-1, 813-УКП.</td>
+                    </tr>
+                    <!-- УЧЕНИЯ -->
+                    <tr>
+                        <td><span class="tech-badge">УЧЕНИЯ</span></td>
+                        <td>Полевые и психологические проверки, в том числе проверка готовности, отработка методик (инфразвук/СВЧ, нейродекодинг).</td>
+                        <td>61-ФЗ "Об обороне"; 28-ФЗ; незаконны без согласия.</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+       <!-- <p style="text-align: center; margin-top: 20px; font-size: 0.9em; opacity: 0.8;">
+            <i class="fas fa-info-circle"></i> Поиск осуществляется по всем колонкам. Для сброса фильтра очистите поле ввода.
+        </p> -->
+    </section>
+
+    <!-- Скрипт фильтрации таблицы -->
+    <script>
+        document.getElementById('methodSearch').addEventListener('keyup', function() {
+            const filter = this.value.toUpperCase();
+            const table = document.getElementById('methodsTable');
+            const rows = table.getElementsByTagName('tr');
+            // Начинаем с 1, чтобы пропустить заголовок
+            for (let i = 1; i < rows.length; i++) {
+                const cells = rows[i].getElementsByTagName('td');
+                let rowMatches = false;
+                // Проверяем каждую ячейку в строке
+                for (let j = 0; j < cells.length; j++) {
+                    const cell = cells[j];
+                    if (cell) {
+                        const text = cell.textContent || cell.innerText;
+                        if (text.toUpperCase().indexOf(filter) > -1) {
+                            rowMatches = true;
+                            break;
+                        }
+                    }
+                }
+                rows[i].style.display = rowMatches ? '' : 'none';
+            }
+        });
+    </script>
+
+    <!-- Примечание: все стили взяты из оригинального restyle.css -->
+</body>
+</html>
