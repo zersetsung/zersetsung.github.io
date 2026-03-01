@@ -256,7 +256,7 @@ h3 {
     border-radius: var(--border-radius);
     border: var(--card-border);
     transition: transform var(--transition), box-shadow var(--transition);
-    position: relative;
+    position: relative;line-height: 2;
 }
 
 /* Эффект при наведении (кроме fact-box, у него нет hover по дизайну) */
