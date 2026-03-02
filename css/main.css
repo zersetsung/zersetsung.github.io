@@ -70,7 +70,7 @@ body {
     position: absolute;
     font-family: "Font Awesome 6 Free";
     top: 10px;
-    left: 20px;
+    left: 10px;
     background: var(--accent);
     color: #fff;
     padding: 2px 10px;
@@ -82,7 +82,7 @@ body {
 
 .container::after {
     content: "длительность: c 24 мая 2021 года \A активная фаза: с 24 мая 2023";
-    white-space: pre;position: absolute;top: 10px;left: 60px;
+    white-space: pre;position: absolute;top: 10px;left: 50px;
     background: var(--accent);color: #fff;padding: 2px 7px;
     font-size: 10px;font-weight: bold;border-radius: 2px;z-index: 10;
 }
