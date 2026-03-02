@@ -81,7 +81,7 @@ body {
 }
 
 .container::after {
-    content: "длительность: c 24 мая 2021 года \A активная фаза: с 24 мая 2023";
+    content: "длительность:  c 24 мая 2021 \A активная фаза: с 24 мая 2023";
     white-space: pre;position: absolute;top: 10px;left: 50px;
     background: var(--accent);color: #fff;padding: 2px 7px;
     font-size: 10px;font-weight: bold;border-radius: 2px;z-index: 10;
