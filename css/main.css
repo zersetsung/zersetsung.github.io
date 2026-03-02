@@ -81,7 +81,7 @@ body {
 }
 
 .container::after {
-    content: " СИСТЕМНАЯ ИНТЕГРАЦИЯ // ZERSETZUNG 2.0";
+    content: " «Zersetzung 2.0»";
     position: absolute;
     top: 10px;
     left: 42px;
