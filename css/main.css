@@ -82,7 +82,7 @@ body {
 
 .container::after {
     content: "длительность:  c 24 мая 2021 \A активная фаза: с 24 мая 2023";
-    white-space: pre;position: absolute;top: 10px;left: 50px;
+    white-space: pre;position: absolute;top: 10px;left: 45px;
     background: var(--accent);color: #fff;padding: 2px 7px;
     font-size: 10px;font-weight: bold;border-radius: 2px;z-index: 10;
 }
@@ -1075,18 +1075,21 @@ a:hover {
     #intro .systems-grid {
         grid-template-columns: 1fr;
     }
-    .container::before,
+
+    .container::before, 
     .container::after {
-        font-size: 8px;
         top: 8px;
     }
+
     .container::before {
-        left: 10px;
+        left: 5px;
         padding: 2px 8px;
+       font-size:16px;
     }
     .container::after {
         left: 32px;
         padding: 2px 5px;
+        font-size: 8px;
     }
 
     /* Адаптивность для оглавления */
