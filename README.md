@@ -17,8 +17,8 @@
 
 
 ---
-#### [STASI|TSCM]
->
+#### [STASI | TSCM]
+> Технические средства наблюдения
 ![](https://zersetsung.github.io/media/img/tscm.png)
 
 ![](https://zersetsung.github.io/media/img/179_1.jpg)
