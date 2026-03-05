@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Библиотека: Zersetzung, COINTELPRO, нейронаука и технологии</title>
+    <meta name="description" content="Расширенная коллекция: от истории политического сыска до нейротехнологий в национальной безопасности и четвёртой промышленной революции.">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --bg: #050a0f;
+            --accent: #00f2ff;
+            --accent-dim: rgba(0, 242, 255, 0.2);
+            --text: #a0b0c0;
+            --panel-bg: rgba(10, 20, 30, 0.9);
+            --highlight: #ffcf00;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--bg);
+            background-image: radial-gradient(var(--accent-dim) 1px, transparent 1px);
+            background-size: 20px 20px;
+            color: var(--text);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.5;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            border: 1px solid var(--accent-dim);
+            padding: 30px;
+            background: var(--panel-bg);
+            box-shadow: 0 0 50px rgba(0,0,0,0.5);
+            position: relative;
+        }
+
+        .container::before {
+            content: "\f02d";
+            position: absolute;
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            top: -10px;
+            left: 20px;
+            background: var(--accent);
+            color: #000;
+            padding: 2px 10px;
+            font-size: 10px;
+            border-radius: 2px;
+            z-index: 10;
+        }
+
+        .container::after {
+            content: " БИБЛИОТЕКА // ПОЛИТИЧЕСКИЙ СЫСК // НЕЙРОТЕХНОЛОГИИ // БУДУЩЕЕ";
+            position: absolute;
+            top: -10px;
+            left: 42px;
+            background: var(--accent);
+            color: #000;
+            padding: 2px 7px;
+            font-size: 10px;
+            font-weight: bold;
+            border-radius: 2px;
+            white-space: nowrap;
+            z-index: 10;
+        }
+
+        h1 {
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 1.8rem;
+        }
+
+        .book-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            justify-items: center;
+        }
+
+        .book-card {
+            width: 100%;
+            max-width: 431px;
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--accent-dim);
+            border-radius: 4px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+        }
+
+        .book-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 242, 255, 0.2);
+            border-color: var(--accent);
+        }
+
+        .book-cover {
+            width: 100%;
+            max-height: 690px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #1a2a33;
+        }
+
+        .book-cover img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            display: block;
+        }
+
+        .book-info {
+            padding: 20px;
+        }
+
+        .book-title {
+            color: var(--highlight);
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .book-author {
+            color: var(--accent);
+            font-size: 0.95em;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .book-description {
+            color: var(--text);
+            font-size: 0.95em;
+            line-height: 1.6;
+        }
+
+        .fact-box {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 20px;
+            border-radius: 4px;
+            border-left: 3px solid var(--accent);
+            margin: 40px 0 20px;
+        }
+
+        .fact-box i {
+            margin-right: 10px;
+            color: var(--accent);
+        }
+
+        .footer {
+            margin-top: 50px;
+            text-align: center;
+            border-top: 1px solid var(--accent-dim);
+            padding: 20px;
+            font-size: 0.8rem;
+            opacity: 0.8;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .footer span {
+            color: var(--accent);
+        }
+
+        @media (max-width: 768px) {
+            body { padding: 20px; }
+            .container::after { white-space: normal; left: 20px; right: 20px; font-size: 8px; }
+            h1 { font-size: 1.3rem; }
+        }
+
+        ::-webkit-scrollbar { width: 0px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-skull"></i> Дополнение : к исследованию о современном Zersetzung 2.0, DEW (Directed Energy Weapons) и  «Психотронно - суггестивных воздействий в контексте информационно-психологических операций» , с учётом когнитивно - нейробиологических аспектов. <i class="fas fa-brain"></i></h1>
+
+        <div class="book-grid">
+            <!-- ========== СЕРИЯ «Zersetzung: A History of Breaking Minds» (по порядку томов) ========== -->
+
+            <!-- 1. The Black Robes of Rome: Jesuit Counter-Reformation Warfare Against Dissidents (Vol. 1) -->
+            <div class="book-card">
+                <div class="book-cover">
+                    <img src="https://zersetsung.github.io/media/img/Charlie_Armstrong_Adams/The_Jesuit_Counter-Reformation.jpg" alt="The Black Robes of Rome">
+                </div>
+                <div class="book-info">
+                    <div class="book-title">The Black Robes of Rome: Jesuit Counter-Reformation Warfare Against Dissidents</div>
+                    <div class="book-author">Charlie Armstrong Adams</div>
+                    <div class="book-description">
+                        Отдельный том, детализирующий роль иезуитов в контрреформации. Шпионаж, пропаганда и психологическая война против протестантов и свободомыслящих.
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. The Inquisition: Torture, Confession, and Birth of Thought Policing (Book 1) -->
+            <div class="book-card">
+                <div class="book-cover">
+                    <img src="https://zersetsung.github.io/media/img/Charlie_Armstrong_Adams/The_Inquisition.jpg" alt="The Inquisition">
+                </div>
+                <div class="book-info">
+                    <div class="book-title">The Inquisition: Torture, Confession, and Birth of Thought Policing</div>
+                    <div class="book-author">Charlie Armstrong Adams</div>
+                    <div class="book-description">
+                        Первый том серии, посвящённый инквизиции. Именно тогда впервые были кодифицированы методы дознания, пыток и принуждения к покаянию — прообраз современной «полиции мысли».
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. The Cheka: Lenin's Sword and Shield of Terror (Book 2) -->
+            <div class="book-card">
+                <div class="book-cover">
+                    <img src="https://zersetsung.github.io/media/img/Charlie_Armstrong_Adams/The_Cheka_Lenin_Sword_and_Shield_of_Terror.jpg" alt="The Cheka">
+                </div>
+                <div class="book-info">
+                    <div class="book-title">The Cheka: Lenin's Sword and Shield of Terror</div>
+                    <div class="book-author">Charlie Armstrong Adams</div>
+                    <div class="book-description">
+                        Вторая часть серии. ВЧК и рождение «красного террора». Психология чрезвычайных комиссий, методы допросов, заложничества и первые концентрационные лагеря.
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. Okhrana: The Tsarist Playbook for Political Policing (Book 3) -->
+            <div class="book-card">
+                <div class="book-cover">
+                    <img src="https://zersetsung.github.io/media/img/Charlie_Armstrong_Adams/Okhrana_Seeds_of_Paranoia_in_Revolutionary_Russia.jpg" alt="Okhrana">
+                </div>
+                <div class="book-info">
+                    <div class="book-title">Okhrana: The Tsarist Playbook for Political Policing</div>
+                    <div class="book-author">Charlie Armstrong Adams</div>
+                    <div class="book-description">
+                        Третья книга серии «Zersetzung: A History of Breaking Minds». Охранка — первая профессиональная служба политического сыска. Методы наружного наблюдения, двойных агентов и провокаций, ставшие образцом для последующих режимов.
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5. The Gestapo: Hitler's Secret Police of Fear (Book 5) -->
+            <div class="book-card">
+                <div class="book-cover">
+                    <img src="https://zersetsung.github.io/media/img/Charlie_Armstrong_Adams/The_Gestapo_Hitler_Secret_Police_of_Fear.jpg" alt="The Gestapo">
+                </div>
+                <div class="book-info">
+                    <div class="book-title">The Gestapo: Hitler's Secret Police of Fear</div>
+                    <div class="book-author">Charlie Armstrong Adams</div>
+                    <div class="book-description">
+                        Пятая книга серии. Гестапо и нацистская система тотальной слежки. Механизмы страха, сеть осведомителей, превентивное заключение и «ночь и туман».
+                    </div>
+                </div>
+            </div>
+
+            <!-- ========== ОСТАЛЬНЫЕ КНИГИ (вне серии) ========== -->
+
+            <!-- 6. COINTELPRO 5.0 (Charlie Armstrong Adams) -->
+            <div class="book-card">
+                <div class="book-cover">
+                    <img src="https://zersetsung.github.io/media/img/Charlie_Armstrong_Adams/cointelpro5.jpg" alt="COINTELPRO 5.0">
+                </div>
+                <div class="book-info">
+                    <div class="book-title">COINTELPRO 5.0</div>
+                    <div class="book-author">Charlie Armstrong Adams</div>
+                    <div class="book-description">
+                        Новая эра цифрового подавления. Автор показывает, как методы классической программы ФБР трансформировались в систему тотального онлайн-наблюдения, использования алгоритмов для профилирования и скрытого воздействия на активистов.
+                    </div>
+                </div>
+            </div>
+
+            <!-- 7. COINTELPRO: America's Domestic Spy War (Charlie Armstrong Adams) -->
+            <div class="book-card">
+                <div class="book-cover">
+                    <img src="https://zersetsung.github.io/media/img/Charlie_Armstrong_Adams/COINTELPRO_America_War_on_Dissent.jpg" alt="COINTELPRO: America's Domestic Spy War">
+                </div>
+                <div class="book-info">
+                    <div class="book-title">COINTELPRO: America's Domestic Spy War</div>
+                    <div class="book-author">Charlie Armstrong Adams</div>
+                    <div class="book-description">
+                        Детальная хроника секретной войны ФБР против политических движений. Основано на рассекреченных документах: провокации, дискредитация, тайные операции и их влияние на современные спецслужбы.
+                    </div>
+                </div>
+            </div>
+
+            <!-- 8. COINTELPRO 5.0: The Digital Inquisition (Charlie Armstrong Adams) -->
+            <div class="book-card">
+                <div class="book-cover">
+                    <img src="https://zersetsung.github.io/media/img/Charlie_Armstrong_Adams/cointelpro.jpg" alt="COINTELPRO 5.0: The Digital Inquisition">
+                </div>
+                <div class="book-info">
+                    <div class="book-title">COINTELPRO 5.0: The Digital Inquisition</div>
+                    <div class="book-author">Charlie Armstrong Adams</div>
+                    <div class="book-description">
+                        Цифровая инквизиция XXI века: использование Big Data, распознавания лиц и нейросетей для упреждающего подавления инакомыслия. Анализ патентов и технологий, доступных уже сегодня.
+                    </div>
+                </div>
+            </div>
+
+            <!-- 9. Eyes That Never Blink: Inside the Deep State Machine (Charlie Armstrong Adams) -->
+            <div class="book-card">
+                <div class="book-cover">
+                    <img src="https://zersetsung.github.io/media/img/Charlie_Armstrong_Adams/Eyes_That_Never_Blink_Inside_the_Deep_State_Machine.jpg" alt="Eyes That Never Blink">
+                </div>
+                <div class="book-info">
+                    <div class="book-title">Eyes That Never Blink: Inside the Deep State Machine</div>
+                    <div class="book-author">Charlie Armstrong Adams</div>
+                    <div class="book-description">
+                        Анатомия «глубинного государства»: как переплетаются разведка, транснациональные корпорации и теневые структуры. Механизмы непубличного управления и сохранения власти.
+                    </div>
+                </div>
+            </div>
+
+            <!-- 10. Jesuit Theater of Control (Charlie Armstrong Adams) -->
+            <div class="book-card">
+                <div class="book-cover">
+                    <img src="https://zersetsung.github.io/media/img/Charlie_Armstrong_Adams/JESUIT_THEATER_OF_CONTROL.jpg" alt="Jesuit Theater of Control">
+                </div>
+                <div class="book-info">
+                    <div class="book-title">Jesuit Theater of Control</div>
+                    <div class="book-author">Charlie Armstrong Adams</div>
+                    <div class="book-description">
+                        Исследование роли ордена иезуитов в создании систем идеологического контроля, шпионажа и психологического влияния. Параллели с современными методами манипуляции сознанием.
+                    </div>
+                </div>
+            </div>
+
+            <!-- 11. Zersetzung 2.0: The Dark Psychology of Modern Surveillance and Influence (Charlie Armstrong Adams) -->
+            <div class="book-card">
+                <div class="book-cover">
+                    <img src="https://zersetsung.github.io/media/img/Charlie_Armstrong_Adams/zersetszung.jpg" alt="Zersetzung 2.0">
+                </div>
+                <div class="book-info">
+                    <div class="book-title">Zersetzung 2.0: The Dark Psychology of Modern Surveillance and Influence</div>
+                    <div class="book-author">Charlie Armstrong Adams</div>
+                    <div class="book-description">
+                        Ключевая работа о трансформации классического метода «Zersetzung» в цифровую эпоху. V2K, гэнгсталкинг, нейромониторинг и интеграция с военными системами C4ISR.
+                    </div>
+                </div>
+            </div>
+
+            <!-- 12. Gang-Stalking: The Dark Art of Societal Control (Charlie Armstrong Adams) -->
+            <div class="book-card">
+                <div class="book-cover">
+                    <img src="https://zersetsung.github.io/media/img/Charlie_Armstrong_Adams/gangstalking.jpg" alt="Gang-Stalking: The Dark Art of Societal Control">
+                </div>
+                <div class="book-info">
+                    <div class="book-title">Gang-Stalking: The Dark Art of Societal Control</div>
+                    <div class="book-author">Charlie Armstrong Adams</div>
+                    <div class="book-description">
+                        Глубокий анализ феномена организованной групповой слежки (gang‑stalking). Автор раскрывает механизмы скоординированного психологического преследования, методы социальной изоляции и манипуляции, используемые как неформальными группами, так и структурами скрытого контроля.
+                    </div>
+                </div>
+            </div>
+
+            <!-- 13. Havana Syndrome: A Threat to National Security (Armin Krishnan) – НОВАЯ КНИГА -->
+            <div class="book-card">
+                <div class="book-cover">
+                    <img src="https://raw.githubusercontent.com/zersetsung/zersetsung.github.io/refs/heads/main/media/img/Charlie_Armstrong_Adams/havana.jpg" alt="Havana Syndrome: A Threat to National Security">
+                </div>
+                <div class="book-info">
+                    <div class="book-title">Havana Syndrome: A Threat to National Security</div>
+                    <div class="book-author">Armin Krishnan</div>
+                    <div class="book-description">
+                        Исследование загадочных инцидентов, известных как «гаванский синдром», от которых пострадали сотрудники разведки и дипломаты США. Автор анализирует возможные причины — от направленного энергетического оружия до сложных психологических операций, — а также рассматривает угрозу, которую эти атаки представляют для национальной безопасности и военнослужащих.
+                    </div>
+                </div>
+            </div>
+
+            <!-- 14. Stasi: The Untold Story of the East German Secret Police (John O. Koehler) -->
+            <div class="book-card">
+                <div class="book-cover">
+                    <img src="https://zersetsung.github.io/media/img/Charlie_Armstrong_Adams/Stasi.jpg" alt="Stasi">
+                </div>
+                <div class="book-info">
+                    <div class="book-title">Stasi: The Untold Story of the East German Secret Police</div>
+                    <div class="book-author">John O. Koehler</div>
+                    <div class="book-description">
+                        Расследование Джона Кёлера о Министерстве госбезопасности ГДР. Масштабы слежки, психологические операции, оперативные игры и система тотального контроля над населением.
+                    </div>
+                </div>
+            </div>
+
+            <!-- 15. Our Brains at War: The Neuroscience of Conflict and Peacebuilding (Mari Fitzduff) -->
+            <div class="book-card">
+                <div class="book-cover">
+                    <img src="https://zersetsung.github.io/media/img/Charlie_Armstrong_Adams/Our_Brains_at_War.jpg" alt="Our Brains at War">
+                </div>
+                <div class="book-info">
+                    <div class="book-title">Our Brains at War: The Neuroscience of Conflict and Peacebuilding</div>
+                    <div class="book-author">Mari Fitzduff</div>
+                    <div class="book-description">
+                        Как нейробиология объясняет природу конфликтов и возможности их мирного урегулирования? Мари Фитцдафф, профессор Брандейского университета, интегрирует данные о работе мозга, зеркальных нейронах и гормональных реакциях для создания новых стратегий миротворчества.
+                    </div>
+                </div>
+            </div>
+
+            <!-- 16. Neurotechnology in National Security and Defense (James Giordano) -->
+            <div class="book-card">
+                <div class="book-cover">
+                    <img src="https://zersetsung.github.io/media/img/Charlie_Armstrong_Adams/Advances_in_Neurotechnology-Neurotechnology_in_National_Security_and_Defense.jpg" alt="Neurotechnology in National Security and Defense">
+                </div>
+                <div class="book-info">
+                    <div class="book-title">Neurotechnology in National Security and Defense: Practical Considerations, Neuroethical Concerns</div>
+                    <div class="book-author">James Giordano</div>
+                    <div class="book-description">
+                        Джеймс Джордано (медицинский центр Университета Джорджтауна) анализирует применение нейроинтерфейсов, фМРТ-профилирования и нейростимуляции в военных целях. Этические дилеммы, риски двойного назначения и возможное воздействие на солдат и гражданских.
+                    </div>
+                </div>
+            </div>
+
+            <!-- 17. The Fourth Industrial Revolution (Klaus Schwab) -->
+            <div class="book-card">
+                <div class="book-cover">
+                    <img src="https://zersetsung.github.io/media/img/Charlie_Armstrong_Adams/revolution.jpg" alt="The Fourth Industrial Revolution">
+                </div>
+                <div class="book-info">
+                    <div class="book-title">The Fourth Industrial Revolution</div>
+                    <div class="book-author">Klaus Schwab</div>
+                    <div class="book-description">
+                        Основатель ВЭФ описывает слияние цифровых, физических и биологических миров. Искусственный интеллект, редактирование генома, квантовые вычисления. Как эти изменения повлияют на экономику, безопасность и частную жизнь — контекст для понимания будущих методов контроля.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Блок с описанием расширенной коллекции -->
+        <div class="fact-box">
+            <i class="fas fa-dragon"></i>
+            <strong style="color: var(--highlight);">Расширенная коллекция:</strong> Добавлены работы по нейронауке конфликтов (Fitzduff), военным нейротехнологиям (Giordano), концепции четвёртой промышленной революции (Schwab), гэнгсталкингу (Adams) и новейшее исследование «гаванского синдрома» (Krishnan). Эти труды обеспечивают научную и технологическую базу для понимания современных инструментов психологического воздействия, тотальной слежки и угроз национальной безопасности.
+        </div>
+
+        <div class="footer">
+            <span>ZERSETZUNG ARCHIVE // COINTELPRO STUDIES // NEUROSCIENCE // FUTURISM // POLITICAL POLICING // GANG-STALKING // HAVANA SYNDROME</span><br>
+            DATA SYSTEMATIZATION // INTERDISCIPLINARY ANALYSIS // HISTORICAL & FUTURE CONTEXTS
+        </div>
+    </div>
+</body>
+</html>
