@@ -1,5 +1,6 @@
 ### Демодулятор Эффекта Фрея
 
+![](https://zersetsung.github.io/demodulator/img/havana_detection.png)
 ![](https://zersetsung.github.io/demodulator/img/v2k_Demo.png)
 ![](https://zersetsung.github.io/demodulator/img/v2k1.png)
 ![](https://zersetsung.github.io/demodulator/img/v2k2.png)
